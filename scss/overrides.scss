@@ -1,0 +1,48 @@
+// only overrides to bs5 variables here
+
+// TODO: decide if we should readd this, persona modified bootstrap to increase padding
+// $input-btn-padding-y:         .625rem !default;
+// $input-btn-padding-x:         1rem !default;
+
+$navbar-nav-link-padding-x: 0.875rem!default;
+
+// persona colors
+$white:    #fff !default;
+$gray-100: #F9F9FA !default;
+$gray-200: #F4F4F5 !default;
+$gray-300: #E7E7E9 !default;
+$gray-400: #DADADC !default;
+$gray-500: #CACACE !default;
+$gray-600: #7C7C83 !default;
+$gray-700: #6F6F76 !default;
+$gray-800: #606067 !default;
+$gray-900: #525257 !default;
+$black:    #000 !default;
+
+$primary: #297A71 !default;
+$secondary: $gray-600 !default;
+$success: #37A498 !default;
+$info: #0091FF !default;
+$warning: #FFB224 !default;
+$danger: #E5484D !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+$link-decoration:none !default;
+
+// font
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+@supports (font-variation-settings: normal) {
+  $font-family-sans-serif: 'Inter var', sans-serif;
+}
+
+// BS5 default is 1rem(16px)
+$font-size-base: 0.875rem!default;
+
+// no rounded in persona
+$enable-rounded: true;
+
+// no caret on dropdown-toggle
+$enable-caret: false;
+
+// disable smooth scroll, this makes window.scrollTo(0,0) in ajaxify.js take x milliseconds
+$enable-smooth-scroll: false;
